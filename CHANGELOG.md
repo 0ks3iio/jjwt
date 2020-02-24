@@ -5,6 +5,7 @@
 This patch release:
 
 * Fixes issue preventing Gson seralizer/deserializer implementation from being detected automatically
+* Fixes issue when using Java 9+ `Map.of` with JacksonDeserializer which resulted in an NullPointerException
 
 ### 0.11.0
 
